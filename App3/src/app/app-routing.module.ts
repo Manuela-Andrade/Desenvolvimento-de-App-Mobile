@@ -2,23 +2,16 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-
-  //Rotas filhas
-  {
-    path: 'home',
-    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
-  },
-  {
-    path: 'contato',
-    loadChildren: () => import('./contato/contato.module').then(m => m.ContatoPageModule)
-  },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'folder/Inbox',
     pathMatch: 'full'
   },
+  {
+    path: 'folder/:id',
+    loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
+  }
 ];
-
 
 @NgModule({
   imports: [
@@ -26,4 +19,4 @@ const routes: Routes = [
   ],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
