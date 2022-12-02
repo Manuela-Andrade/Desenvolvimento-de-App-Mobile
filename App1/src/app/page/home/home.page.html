@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="dark">
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div id="container" >
+
+  <img [src] = "image">
+
+    <ion-title><strong>Lista de Compras</strong></ion-title>
+
+    <ion-card *ngFor="let compras of products">
+      <ion-card-header>
+          <ion-card-title><strong>Item: </strong>{{compras.produto}}</ion-card-title>
+        </ion-card-header>
+          <ion-card-content><strong>quantidade: </strong> {{compras.quantidade}}</ion-card-content>
+      </ion-card>
+
+    <ion-button>Contato</ion-button>
+
+  </div>
+</ion-content>
