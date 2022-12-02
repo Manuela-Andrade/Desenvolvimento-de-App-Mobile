@@ -1,0 +1,35 @@
+{
+    "listaCompras": [
+        {
+            "id":1,
+            "produto": "Batata",
+            "quantidade": "2kg"
+        },
+        {
+            "id":2,
+            "produto": "Cebola",
+            "quantidade": "1kg"
+        },
+        {
+            "id":3,
+            "produto": "Cenoura",
+            "quantidade": "3kg"
+        },
+        {
+            "id":4,
+            "produto": "Banana",
+            "quantidade": "1kg"
+        },
+        {
+            "id":5,
+            "produto": "Limão",
+            "quantidade": "1kg"
+        },
+        {
+            "id":6,
+            "produto": "Mamão",
+            "quantidade": "3kg"
+        }
+
+    ]
+}
