@@ -1,11 +1,18 @@
 {
   "lista": [
     {
-        "id": 1,
-        "receita": "Bolo de Laranja",
-        "ingredientes": "Laranja, fermento, farinha de trigo, leite...",
-        "img": "https://s2.glbimg.com/F9dgqtXN9uu_YJvp8uV48PEnhBU=/0x0:1280x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2021/N/d/zEcoFRSqGbrt3F6uWpBQ/bolo-de-laranja-com-calda.jpg",
-        "preparo": "..."
-      }
+      "receita": "Bolo de Banana",
+      "ingredientes": "4 ovos, 2 xícaras (chá) de açúcar, 4 colheres (sopa) de margarina, 2 xícaras (chá) de farinha de trigo, 1 colher (café) de bicarbonato de sódio, 1 colher (sobremesa) de fermento químico, 4 bananas-prata maduras amassadas com o garfo, açúcar e canela para polvilhar",
+      "img": "https://th.bing.com/th/id/R.0b8a3c999e671ba04e5299167c0f0d25?rik=ZCYR8t9R9aN%2fHw&riu=http%3a%2f%2fs.glbimg.com%2fpo%2frc%2fmedia%2f2014%2f09%2f16%2f20_48_32_306_Bolo_de_Banana.JPG&ehk=20HolYGJ8K24OMaRlEGqqspDNwsFaZJa8XCTL0ipA40%3d&risl=&pid=ImgRaw&r=0",
+      "preparo": "Misture os ovos com açúcar e a margarina até ficar bem cremoso. Acrescente a farinha e incorpore bem. Adicione o bicarbonato, o fermento e a banana amassada e misture. Despeje em fôrma de sua preferência untada com margarina e polvilhada com açúcar e canela (se desejar, distribua fatias de banana por cima). Leve ao forno médio preaquecido (200 °C por cerca de 40 min. ou até dourar. Desenforme morno e deixe esfriar",
+      "id": 1
+    },
+    {
+      "receita": "Bolo de Maracuja",
+      "ingredientes": "MASSA: 3 xícaras de farinha de trigo, 3 ovos, 3/4 de xícara de óleo, 2 xícaras de óleo, 2 xícaras de açúcar, 1 xícara de suco de maracujá (bem concentrado), 1 colher (sopa) de fermento em pó, CALDA: polpa de maracujá, 1 xícara de açúcar, 1/2 xícara de água",
+      "img": "https://th.bing.com/th/id/OIP.wFrfl5Rv_IY9HH0hmbvn4wHaE5?w=261&h=180&c=7&r=0&o=5&pid=1.7",
+      "preparo": "MASSA: na batedeira, bata os ovos, açúcar e o óleo. Acrescente a farinha e o suco do maracujá. Bata de novo até misturar bem. Depois acrescente o fermento em pó e bata só para misturar. Coloque em forma untada com margarina e farinha. Leve ao forno médio preaquecido por cerca de 40 minutos. CALDA: Coloque a água e o açúcar numa panela e mexe até quase ficar em ponto de fio. Depois, desligue o fogo, coloque a polpa do maracujá e misture. Sirva sobre os pedaços de bolo.",
+      "id": 2
+    }
   ]
 }

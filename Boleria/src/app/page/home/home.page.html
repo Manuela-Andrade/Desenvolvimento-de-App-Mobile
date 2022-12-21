@@ -12,7 +12,7 @@
   <ion-list>
     <ion-item-sliding  *ngFor="let receita of listaReceitas">
 
-     <ion-item routerLink="/detalhes">
+     <ion-item [routerLink]="['/detalhes', receita.id]">
       <ion-label ><strong>Receita: </strong>{{receita.receita}}</ion-label>
      </ion-item> 
 
@@ -21,7 +21,7 @@
         <ion-icon name="trash-outline"></ion-icon>
       </ion-item-option>
 
-      <ion-item-option  color="success" [routerLink]="['/detalhes',receita.id]">
+      <ion-item-option  color="success" [routerLink]="['/form',receita.id]">
         <ion-icon name="refresh-outline"></ion-icon>
       </ion-item-option>
       

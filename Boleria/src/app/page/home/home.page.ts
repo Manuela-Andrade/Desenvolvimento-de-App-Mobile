@@ -87,7 +87,7 @@ export class HomePage implements OnInit{
               img: form.img,
               preparo: form.preparo
               
-            };
+            }
 
             this.banco.postReceita(item);   
             this.utility.toastando("Item Cadastrado", "top", "success");         
@@ -95,8 +95,9 @@ export class HomePage implements OnInit{
           }
         }
       ]
-    })
+    });
 
+    (await alert).present();
 }
 
 }

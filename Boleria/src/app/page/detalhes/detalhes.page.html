@@ -11,21 +11,16 @@
 
 
   <ion-card>
-    <form #form="ngForm" (ngSubmit)="update(form)"> 
-    <img alt="Bolo de Banana" [src]="receita.img" />
+
+    <img [src]="oneReceita.img"/>
     <ion-card-header>
-      <ion-card-title></ion-card-title>
-      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+      <ion-card-title>{{oneReceita.receita}}</ion-card-title>
+      <ion-card-subtitle>{{oneReceita.ingredientes}}</ion-card-subtitle>
     </ion-card-header>
   
     <ion-card-content>
-      Here's a small text description for the card content. Nothing more, nothing less.
+      {{oneReceita.preparo}}
     </ion-card-content>
-    
-    <ion-button type="submit" color="success" expand="block">Atualizar</ion-button>
-  </form> 
+     
   </ion-card>
-
-
-
 </ion-content>

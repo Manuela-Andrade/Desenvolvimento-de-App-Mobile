@@ -12,35 +12,21 @@ import { UtilityService } from 'src/app/servicos/utility.service';
 export class DetalhesPage implements OnInit {
 
     routeId = null;
-    receita: any = {};
-
+    oneReceita: any = {};
 
     constructor(
-
       private activateRoute: ActivatedRoute,
-      private banco: DatabaseService,
-      private router: Router,
-      private util: UtilityService
+      private banco: DatabaseService
       
     ) { }
 
     ngOnInit() {
       this.routeId = this.activateRoute.snapshot.params['id'];
-      console.log(this.routeId);
 
       if(this.routeId){
-        //Está trazendo o produto do banco de dados
-        this.banco.getOneReceita(this.routeId).subscribe(caixa => {this.receita = caixa});
-      }
-    }
-      update(form: any){
-      this.banco.update(form.value, this.routeId);
-      this.router.navigate(['']);
-      this.util.toastando("Item Atualizado com sucesso", "middle", "medium");
+        this.banco.getOneReceita(this.routeId).subscribe(caixa => this.oneReceita = caixa);
     }
  
   }
 
-  
-
-
+}

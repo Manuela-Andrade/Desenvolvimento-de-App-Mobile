@@ -8,21 +8,17 @@ import { Receitas } from '../model/receita.model';
   providedIn: 'root'
 })
 export class DatabaseService {
-  update(value: any, routeId: null) {
-    throw new Error('Method not implemented.');
-  }
-
-  readonly API = 'http://localhost:3000/lista/'
 
   HttpOptions = {
     headers: new HttpHeaders({'Content-Type' : 'application/json'})
-  };
+  }
+  
+  readonly API = 'http://localhost:3000/lista/'
 
   constructor(private http: HttpClient) { }
 
   getReceita(){
     return this.http.get<Receitas[]>(this.API);
-
   }
 
   getOneReceita(id: number){
@@ -37,12 +33,8 @@ export class DatabaseService {
     return this.http.delete(this.API + id).subscribe();
   }
 
-  statusItem(item: Receitas){
-    return this.http.put(this.API + item.id, JSON.stringify(item), this.HttpOptions).subscribe();
-  }
-
-  atualizarItem(item: Receitas){
-    return this.http.put(this.API + item.receita, item.ingredientes).subscribe();
+  atualizarReceita(item: Receitas, id: any){
+    return this.http.put(this.API + id, JSON.stringify(item), this.HttpOptions).subscribe();
   }
   
   }

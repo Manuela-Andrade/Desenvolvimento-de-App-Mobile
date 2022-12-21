@@ -24,9 +24,9 @@ export class UtilityService {
     });
 
     (await load).present(); 
+    
     }
 
-    // Método do toast - Exibe uma mensagem 
     async toastando(message: string, position: "top" | "middle" | "bottom", color: string){
       const toastei = this.toatsController.create({
         message,
