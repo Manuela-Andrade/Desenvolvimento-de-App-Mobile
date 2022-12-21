@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar color="dark" mode="ios">
+    <ion-buttons>
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Detalhes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+  <ion-card>
+    <form #form="ngForm" (ngSubmit)="update(form)"> 
+    <img alt="Bolo de Banana" [src]="receita.img" />
+    <ion-card-header>
+      <ion-card-title></ion-card-title>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Here's a small text description for the card content. Nothing more, nothing less.
+    </ion-card-content>
+    
+    <ion-button type="submit" color="success" expand="block">Atualizar</ion-button>
+  </form> 
+  </ion-card>
+
+
+
+</ion-content>

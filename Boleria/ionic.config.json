@@ -1,0 +1,7 @@
+{
+  "name": "Boleria",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

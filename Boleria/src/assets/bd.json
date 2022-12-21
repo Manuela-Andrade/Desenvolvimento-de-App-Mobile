@@ -1,0 +1,11 @@
+{
+  "lista": [
+    {
+        "id": 1,
+        "receita": "Bolo de Laranja",
+        "ingredientes": "Laranja, fermento, farinha de trigo, leite...",
+        "img": "https://s2.glbimg.com/F9dgqtXN9uu_YJvp8uV48PEnhBU=/0x0:1280x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2021/N/d/zEcoFRSqGbrt3F6uWpBQ/bolo-de-laranja-com-calda.jpg",
+        "preparo": "..."
+      }
+  ]
+}

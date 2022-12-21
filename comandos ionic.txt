@@ -1,0 +1,13 @@
+							DESENVOLVIMENTO DE APP MOBILE
+	
+	MODELOS PARA CRIAÇÃO DOS APP´S:
+	ionic start myApp blank
+	ionic start myApp tabs
+	ionic start myApp sidemenu
+
+	
+	BAIXAR O IONIC: npm install -g @ionic/cli
+ 	SUBIR O IONIC: ionic serve
+	SUBIR O BANCO JSON: json-server --watch (nome do banco)
+	GERAR SERVIÇO: ionic generate service (nome serviço)
+	CRIAR UMA PAGE: ionic generate page (nome da page)
